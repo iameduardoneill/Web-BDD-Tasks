@@ -1,0 +1,8 @@
+[0306/165754.593:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0306/165754.594:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0306/165754.595:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0306/165754.595:ERROR:exception_snapshot_win.cc(98)] thread ID 18656 not found in process
+[0306/170336.505:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0306/170336.506:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0306/170336.506:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[0306/170336.506:ERROR:exception_snapshot_win.cc(98)] thread ID 17748 not found in process
