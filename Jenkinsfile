@@ -6,7 +6,6 @@ pipeline{
                 dir('web-bdd-tasks') {
                      git credentialsId: 'Login_git2', url: 'https://github.com/iameduardoneill/Web-BDD-Tasks'
                      bat 'mvn test'
-                     junit 'target/surefire-reports/*.xml'
                     }
                 }
         }
