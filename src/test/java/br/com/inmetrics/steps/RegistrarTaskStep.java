@@ -1,6 +1,12 @@
 package br.com.inmetrics.steps;
 
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import br.com.edsoft.framework.base.DriverContext;
 import br.com.inmetrics.pages.HomePage;
@@ -21,6 +27,11 @@ public class RegistrarTaskStep {
 		System.setProperty("webdriver.chrome.driver", "C:\\marionette\\chromedriver.exe");
 		DriverContext.Driver = new ChromeDriver();
 		DriverContext.Driver.manage().window().maximize();
+		
+//		DesiredCapabilities cap = DesiredCapabilities.chrome();		
+//		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.0.107:4444/wd/hub"), cap);
+//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
 		homePage = new HomePage();
 		usuarioPage = new UsuarioPage();
 	}
